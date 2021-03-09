@@ -91,6 +91,19 @@ function hoursColor() {
 
 hoursColor();
 
+function input9am() {
+  
+  var save = document.getElementById('#btn9am');
+
+  save.addEventListener("click", showInput);
+
+  function showInput() {
+    var input = document.getElementById('#text-input9');
+    
+    input.textContent = 
+  }
+
+}
 
 
 
