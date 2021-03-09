@@ -89,21 +89,26 @@ function hoursColor() {
   }
 }
 
+//calling function
 hoursColor();
 
+//trying to create a function to store input
 function input9am() {
   
-  var save = document.getElementById('#btn9am');
+  var saveButton = document.getElementById('#btn9am');
 
-  save.addEventListener("click", showInput);
+  saveButton.addEventListener("click", showInput);
 
   function showInput() {
-    var input = document.getElementById('#text-input9');
+    var input = document.getElementById('#input9am');
     
-    input.textContent = 
+    localStorage.setItem("content", input.value);
+    input.append(input.value);
   }
 
 }
+
+input9am();
 
 
 
