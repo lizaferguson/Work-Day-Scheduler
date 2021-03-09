@@ -10,7 +10,7 @@
       integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
       crossorigin="anonymous"/>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"/>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="assets/style.css" />
     <title>Work Day Scheduler</title>
   </head>
 
@@ -26,46 +26,53 @@
     </header>
     <div class="container">
       <!-- Timeblocks go here -->
-      <table class="table" id="planner">
-        <tbody>
-          <tr>
-            <th scope="row">9 AM</th>
-            <td>Mark</td>
-          </tr>
-          <tr>
-            <th scope="row">10 AM</th>
-            <td>Jacob</td>
-          </tr>
-          <tr>
-            <th scope="row">11 AM</th>
-            <td>Larry</td>
-          </tr>
-          <tr>
-            <th scope="row">12 PM</th>
-            <td>Larry</td>
-          </tr>
-          <tr>
-            <th scope="row">1 PM</th>
-            <td>Larry</td>
-          </tr>
-          <tr>
-            <th scope="row">2 PM</th>
-            <td>Larry</td>
-          </tr>
-          <tr>
-            <th scope="row">3 PM</th>
-            <td>Larry</td>
-          </tr>
-          <tr>
-            <th scope="row">4 PM</th>
-            <td>Larry</td>
-          </tr>
-          <tr>
-            <th scope="row">5 PM</th>
-            <td>Larry</td>
-          </tr>
-        </tbody>
-      </table>
+      <div class="container">
+        <div class="row" id="row9">
+          <div class="col">9 AM</div>
+          <div class="text-input col"></div>
+          <button type="button" class="btn btn-info" id="btn9am">Save</button>
+        </div>
+        <div class="row" id="row10">
+          <div class="col">10 AM</div>
+          <div class="text-input col"></div>
+          <button type="button" class="btn btn-info" id="btn10am">Save</button>
+        </div>
+        <div class="row" id="row11">
+          <div class="col">11 AM</div>
+          <div class="text-input col"></div>
+          <button type="button" class="btn btn-info" id="btn11am">Save</button>
+        </div>
+        <div class="row" id="row12">
+          <div class="col">12 PM</div>
+          <div class="text-input col"></div>
+          <button type="button" class="btn btn-info" id="btn12pm">Save</button>
+        </div>
+        <div class="row" id="row1">
+          <div class="col">1 PM</div>
+          <div class="text-input col"></div>
+          <button type="button" class="btn btn-info" id="btn1pm">Save</button>
+        </div>
+        <div class="row" id="row2">
+          <div class="col">2 PM</div>
+          <div class="text-input col"></div>
+          <button type="button" class="btn btn-info" id="btn2pm">Save</button>
+        </div>
+        <div class="row" id="row3">
+          <div class="col">3 PM</div>
+          <div class="text-input col"></div>
+          <button type="button" class="btn btn-info" id="btn3pm">Save</button>
+        </div>
+        <div class="row" id="row4">
+          <div class="col">4 PM</div>
+          <div class="text-input col"></div>
+          <button type="button" class="btn btn-info" id="btn4pm">Save</button>
+        </div>
+        <div class="row" id="row5">
+          <div class="col">5 PM</div>
+          <div class="text-input col"></div>
+          <button type="button" class="btn btn-info" id="btn5pm">Save</button>
+        </div>
+      </div>
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -73,6 +80,6 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"></script>
   <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"></script>
-    <script src="../Assets/script.js"></script>
+    <script src="assets/script.js"></script>
   </body>
 </html>

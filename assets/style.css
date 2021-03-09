@@ -34,6 +34,7 @@ textarea{
   white-space: pre-wrap;
   height: 80px;
   border-top: 1px solid white;;
+  background-color: #d3d3d3;
 }
 
 .hour {
@@ -81,4 +82,24 @@ textarea{
 .table {
   padding: 10%;
   height: 100%;
+}
+
+tbody {
+  padding: 20px;
+}
+
+.col {
+  padding: 2em;
+}
+
+.past {
+  background-color: grey;
+}
+
+.present {
+  background-color: coral;
+}
+
+.future {
+  background-color: olivedrab;
 }
