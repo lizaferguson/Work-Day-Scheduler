@@ -12,7 +12,7 @@ To access codebase,
 
 ## Usage
 This web application is a simple hourly calendar to log events and store locally. The application appears as such:
-![Image of application.](./assets/images/app_image.png)
+![Image of application.](assets/images/app_image.png)
 
 ## Credits
 The orginal codebase can be found at https://unc.bootcampcontent.com/UNC-Coding-Boot-Camp/unc-ral-virt-fsf-pt-01-2021-u-c/tree/master
